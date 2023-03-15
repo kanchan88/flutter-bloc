@@ -87,16 +87,14 @@ class SearchPage extends StatelessWidget {
                                      style: BorderStyle.solid
                                  )
                              ),
-
                              hintText: "City Name",
                              hintStyle: TextStyle(color: Colors.white70),
-
                            ),
                            style: TextStyle(color: Colors.white70),
-
                          ),
 
                          SizedBox(height: 20,),
+
                          Container(
                            width: double.infinity,
                            height: 50,
@@ -109,8 +107,7 @@ class SearchPage extends StatelessWidget {
                              child: Text("Search", style: TextStyle(color: Colors.white70, fontSize: 16),),
 
                            ),
-                         )
-
+                         ),
                        ],
                      ),
                    );
@@ -176,8 +173,8 @@ class ShowWeather extends StatelessWidget {
                 onPressed: (){},
                 shape: new RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
                 color: Colors.lightBlue,
-                child: Text("Search", style: TextStyle(color: Colors.white70, fontSize: 16),),
-
+                child: Text("Search", style: TextStyle(color: Colors.white70, fontSize: 16),
+                ),
               ),
             )
           ],
